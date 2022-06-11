@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Nms.Advance">
+  <grid id="27dc6" binding="mainDialog" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="487" height="415"/>
+    </constraints>
+    <properties>
+      <font size="14"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="9af51" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="46240" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.3" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <text value="Port:  "/>
+            </properties>
+          </component>
+          <component id="3eb09" class="javax.swing.JTextField" binding="portField">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <text value="161"/>
+            </properties>
+          </component>
+          <component id="2d725" class="javax.swing.JTextField" binding="readComField">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <text value="jiaxv"/>
+            </properties>
+          </component>
+          <component id="55918" class="javax.swing.JTextField" binding="writeComField">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <text value="jiaxv"/>
+            </properties>
+          </component>
+          <component id="3aa6d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <text value="Read Community:  "/>
+            </properties>
+          </component>
+          <component id="4b10c" class="javax.swing.JComboBox" binding="versionCombo">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <model>
+                <item value="1"/>
+                <item value="2c"/>
+                <item value="3"/>
+              </model>
+            </properties>
+          </component>
+          <component id="982fb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <text value="SNMP version:  "/>
+            </properties>
+          </component>
+          <component id="8cccc" class="javax.swing.JButton" binding="confirmButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <grid id="56f0f" binding="SnmpV3Panel" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+            </properties>
+            <border type="etched" title="SnmpV3"/>
+            <children>
+              <component id="38054" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="USM User:  "/>
+                </properties>
+              </component>
+              <component id="44d36" class="javax.swing.JTextField" binding="usmField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="thirdxiaozhu"/>
+                </properties>
+              </component>
+              <component id="e9d69" class="javax.swing.JComboBox" binding="securityCombo">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <model>
+                    <item value="auth &amp; priv"/>
+                    <item value="auth only"/>
+                    <item value="null"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="7134e" class="javax.swing.JComboBox" binding="authAlgoCombo">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <model>
+                    <item value="MD5"/>
+                    <item value="SHA"/>
+                    <item value="SHA256"/>
+                    <item value="SHA512"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="f2cab" class="javax.swing.JTextField" binding="authPassField">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="mymd5123"/>
+                </properties>
+              </component>
+              <component id="f48a3" class="javax.swing.JComboBox" binding="privAlgoCombo">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <model>
+                    <item value="AES128"/>
+                    <item value="DES"/>
+                    <item value="3DES"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="927f0" class="javax.swing.JTextField" binding="privPassField">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="myaes123"/>
+                </properties>
+              </component>
+              <component id="44850" class="javax.swing.JTextField" binding="contextNameField">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                </properties>
+              </component>
+              <component id="8308e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="Context Name"/>
+                </properties>
+              </component>
+              <component id="4db6a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="Privacy Password"/>
+                </properties>
+              </component>
+              <component id="61ba3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="Privacy Algorith,"/>
+                </properties>
+              </component>
+              <component id="a8d21" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="Auth Password"/>
+                </properties>
+              </component>
+              <component id="a4d73" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="Auth Algorithm"/>
+                </properties>
+              </component>
+              <component id="58d6d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="Security Level"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <vspacer id="af889">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="1.0"/>
+            </constraints>
+          </vspacer>
+          <component id="6f21c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <text value="Write Community:  "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="3ff1e">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.5" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="8ae8f">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.5" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="a3aa6">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
